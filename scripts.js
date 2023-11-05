@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const voiceflowRuntime = 'general-runtime.voiceflow.com'
   const voiceflowVersionID =
     document.getElementById('vfassistant').getAttribute('data-version') ||
-    'production'
+    'development'
   const voiceflowAPIKey = VF.DM.654667017e31c10008fce157.dgtzwbjPs6F0xKAQ
 
   let audio = new Audio()
