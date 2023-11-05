@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const voiceflowVersionID =
     document.getElementById('vfassistant').getAttribute('data-version') ||
     'production'
-  const voiceflowAPIKey = 'VOICEFLOW_DIALOG_API_KEY'
+  const voiceflowAPIKey = 'VF.DM.654667017e31c10008fce157.dgtzwbjPs6F0xKAQ'
 
   let audio = new Audio()
   const wave = document.getElementById('wave')
