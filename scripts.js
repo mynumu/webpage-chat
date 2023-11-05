@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const voiceflowVersionID =
     document.getElementById('vfassistant').getAttribute('data-version') ||
     'development'
-  const voiceflowAPIKey = 'VF.DM.6546546144035a00075815f7.rEeWBQnU8inMqTS0'
+  const voiceflowAPIKey = 'VF.DM.6547dcae2509560007eed5f7.kuZr8sEsDv1lMIr3'
 
   let audio = new Audio()
   const wave = document.getElementById('wave')
@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const credits = document.getElementById('credits')
   const by = document.createElement('p')
   by.innerHTML =
-    'Photo by <a href="https://unsplash.com/@pawel_czerwinski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pawel Czerwinski</a> on <a href="https://unsplash.com/wallpapers?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
+    'Photo by <a href="https://unsplash.com/@pawel_czerwinski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">The AIdiva</a> on <a href="https://unsplash.com/wallpapers?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>'
   credits.appendChild(by)
   credits.style.opacity = '0.6'
   document.getElementById('overlay').style.opacity = '0.8'
